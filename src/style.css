@@ -93,9 +93,11 @@ body {
     top: 325px;
     left: 50%;
     transform: translateX(-50%);
+    opacity: 0.8;
 }
 
 #search-bar input {
+    font-family: 'Comic Sans MS', Arial, Helvetica, sans-serif;
     height: 50px;
     min-width: 500px;
     display: block;
