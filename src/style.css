@@ -29,7 +29,51 @@ body {
 }
 
 #settings-module {
+    background: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 575px;
+    min-height: 300px;
+    z-index: 900;
+    padding: 20px;
+}
+
+#settings-module.hidden {
     display: none;
+}
+
+#settings-close {
+    float: right;
+    cursor: pointer;
+}
+
+.background {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 0 25px 25px 25px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.background.active {
+    border: 2px solid #f49f00;
+}
+
+.search-engine, .show-logo {
+    display: inline-block;
+    background: #eee;
+    padding: 15px 30px;
+    margin: 0 25px 25px 25px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.search-engine.active, .show-logo.active {
+    border: 2px solid #f49f00;
 }
 
 #logo {

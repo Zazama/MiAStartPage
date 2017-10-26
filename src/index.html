@@ -7,15 +7,26 @@
     <body>
         <div id="settings">
             <div id="settings-text">settings</div>
-            <div id="settings-module">
+            <div id="settings-module" class="hidden">
+                <div id="settings-close">close</div>
                 <div class="setting">
                     <p>Background:</p>
-                    <img class="setting-background" src="">
+                    <div id="setting-backgrounds">
+
+                    </div>
                 </div>
                 <div class="setting">
                     <p>Search engine:</p>
-                    <select id="setting-search-engine">
-                    </select>
+                    <div id="setting-search-engines">
+
+                    </div>
+                </div>
+                <div class="setting">
+                    <p>Show logo?</p>
+                    <div id="setting-show-logo">
+                        <a class="show-logo" onclick="showLogoEvent(this)">Yes</a>
+                        <a class="show-logo" onclick="showLogoEvent(this)">No</a>
+                    </div>
                 </div>
             </div>
         </div>
