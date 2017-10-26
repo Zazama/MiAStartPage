@@ -82,7 +82,7 @@ body {
     top: 25px;
     left: 50%;
     transform: translate(-50%);
-    background: url('https://i.imgur.com/wZHajMN.png') no-repeat center center / 100% 100%;
+    background: url('https://i.imgur.com/imTMUMG.png') no-repeat center center / 100% 100%;
     width: 400px;
     height: 280px;
 }
@@ -103,7 +103,7 @@ body {
     display: block;
     float: left;
     padding: 10px;
-    background: url('https://i.imgur.com/GMvWLtT.jpg') no-repeat center center;
+    background: url('https://i.imgur.com/OFvjBxy.jpg') no-repeat center center;
     border: 0 none;
     color: white;
     text-shadow: 0px 0px 2px black, 0px 0px 2px black;
@@ -114,5 +114,5 @@ body {
     height: 50px;
     display: block;
     float: right;
-    background: url('https://i.imgur.com/4akikRp.jpg') no-repeat 60% 5% / 300% 300%;
+    background: url('https://i.imgur.com/PFOgYUJ.jpg') no-repeat 60% 5% / 300% 300%;
 }

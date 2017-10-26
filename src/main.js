@@ -1,7 +1,7 @@
 var backgrounds = [
-    "https://i.imgur.com/47f2kIt.png",
-    "https://i.imgur.com/V67JVxg.jpg",
-    "https://i.imgur.com/oykVjkv.jpg"
+    "https://i.imgur.com/ZyjelPW.jpg",
+    "https://i.imgur.com/F48Dp49.jpg",
+    "https://i.imgur.com/9KzQTU5.jpg"
 ]
 
 var searchEngines = [
@@ -40,6 +40,8 @@ if(!storage.getItem('searchEngine')) {
 if(!storage.getItem('showLogo')) {
     storage.setItem('showLogo', "Yes");
 }
+
+window.history.pushState('', '', '');
 
 document.getElementById('background').src = storage.getItem('background');
 
