@@ -35,12 +35,12 @@ body {
     background: #fff;
     display: inline-block;
     position: absolute;
-    top: 50%;
+    top: 1em;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     min-width: 575px;
     min-height: 300px;
-    z-index: 900;
+    z-index: 10001;
     padding: 20px;
 }
 
@@ -130,6 +130,10 @@ body {
         min-width: 0px;
         background-size: 100% 100%;
         width: calc(100% - 75px);
+    }
+    #settings-module {
+        min-width: 0px;
+        width: 90%;
     }
 }
 
