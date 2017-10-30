@@ -96,6 +96,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     opacity: 0.8;
+    min-width: 575px;
 }
 
 #search-bar input {
@@ -117,4 +118,29 @@ body {
     display: block;
     float: right;
     background: url('https://i.imgur.com/PFOgYUJ.jpg') no-repeat 60% 5% / 300% 300%;
+}
+
+@media only screen and (max-width: 768px) {
+    #search-bar {
+        min-width: 0px;
+        width: 90%;
+    }
+    #search-bar input {
+        min-width: 0px;
+        background-size: 100% 100%;
+        width: calc(100% - 75px);
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    #search-bar input {
+        background-size: auto 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #logo {
+        background-size: 90% auto;
+        width: 100%;
+    }
 }
